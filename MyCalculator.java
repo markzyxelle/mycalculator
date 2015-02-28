@@ -38,7 +38,7 @@ public class MyCalculator {
 	public int nfactorial(int n){
 		int factorial = 1;
 		
-		for(int i=1;i<n;i++)
+		for(int i=1;i<=n;i++)		//correction: i<n to i<=n
 			factorial *= i;
 		
 		return factorial;
@@ -57,7 +57,7 @@ public class MyCalculator {
 			else return middle;
 		}
 		
-		return 1;
+		return -1;			//correction: 1 to -1
 	}
 	
 }
